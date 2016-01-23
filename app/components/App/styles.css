@@ -1,0 +1,35 @@
+@import url("http://yui.yahooapis.com/pure/0.6.0/pure-min.css");
+
+:root {
+  --lighter-purple: #BDA7CD;
+  --light-purple: #9373A9;
+  --purple: #734C8E;
+  --dark-purple: #552B72;
+  --darker-purple: #391254;
+
+  --lighter-yellow: #FFF6CD;
+  --light-yellow: #FCECA6;
+  --yellow: #D4C16B;
+  --dark-yellow: #AA9539;
+  --darker-yellow: #7D6914;
+
+  --lighter-green: #E7F6C5;
+  --light-green: #D5ED9C;
+  --green: #AAC864;
+  --dark-green: #80A036;
+  --darker-green: #587613;
+}
+
+html, body {
+  height: 100%;
+  color: var(--darker-yellow);
+}
+
+body > section {
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  background: var(--lighter-yellow);
+}
